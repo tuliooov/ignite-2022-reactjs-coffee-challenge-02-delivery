@@ -596,7 +596,7 @@ Error generating stack: `+o.message+`
       background: ${({theme:e})=>e.colors["brand-purple"]};
     }
   }
-`;function Gk({coffee:e}){const[t,n]=W.exports.useState(1);function r(){n(a=>a+1)}function i(){n(a=>a-1)}const{addCoffeeToCart:o}=wi();function s(){const a={...e,quantity:t};o(a)}const l=Qi(e.price);return E(Bk,{children:[u("img",{src:`/coffees/${e.photo}`}),u(Uk,{children:e.tags.map(a=>u("span",{children:a},`${e.id}${a}`))}),u(Zk,{children:e.name}),u(Qk,{children:e.description}),E(Kk,{children:[E("div",{children:[u(De,{size:"s",children:"R$"}),u(Pr,{size:"m",color:"text",as:"strong",children:l})]}),E(Yk,{children:[u(g1,{onIncrease:r,onDecrease:i,quantity:t}),u("button",{onClick:s,children:u(Vc,{weight:"fill",size:22})})]})]})]})}const Xk=re.section`
+`;function Gk({coffee:e}){const[t,n]=W.exports.useState(1);function r(){n(a=>a+1)}function i(){n(a=>a-1)}const{addCoffeeToCart:o}=wi();function s(){const a={...e,quantity:t};o(a)}const l=Qi(e.price);return E(Bk,{children:[u("img",{src:`${e.photo}`}),u(Uk,{children:e.tags.map(a=>u("span",{children:a},`${e.id}${a}`))}),u(Zk,{children:e.name}),u(Qk,{children:e.description}),E(Kk,{children:[E("div",{children:[u(De,{size:"s",children:"R$"}),u(Pr,{size:"m",color:"text",as:"strong",children:l})]}),E(Yk,{children:[u(g1,{onIncrease:r,onDecrease:i,quantity:t}),u("button",{onClick:s,children:u(Vc,{weight:"fill",size:22})})]})]})]})}const Xk=re.section`
   width: 100%;
   margin-top: 2rem;
 `,qk=re.div`
