@@ -1,8 +1,9 @@
-![image](https://user-images.githubusercontent.com/28486303/214650556-999f3660-4ae3-4b05-8bf4-5ea6c1e9fe9c.png)
+<img width="1203" alt="image" src="https://user-images.githubusercontent.com/28486303/214925234-88691d9d-3321-4b83-9e4f-50389215ce7a.png">
 
-<img width="1290" alt="image" src="https://user-images.githubusercontent.com/28486303/214650670-1c95a0fd-ca02-48dd-8b19-8ce84907adeb.png">
+<img width="1202" alt="image" src="https://user-images.githubusercontent.com/28486303/214925289-6f25dc6c-3c86-4946-a2be-76288566bc42.png">
 
-<img width="1304" alt="image" src="https://user-images.githubusercontent.com/28486303/214650709-332d1142-1047-4ba4-95ca-3e3d579c767d.png">
+<img width="1235" alt="image" src="https://user-images.githubusercontent.com/28486303/214925447-99b27008-d29d-4700-8666-cc66e86a4885.png">
+
 
 ## Challenge 02 - Coffee Delivery - ReactJS Ignite 2022
 Durante este desafio, utilizamos conceitos um pouco mais avançados desenvolvendo do zero uma aplicação de encomenda de cafés! A aplicação conta com 3 telas sendo a primeira uma tela de apresentação e também de listagem dos cafés disponíveis. Na segunda tela, o usuário precisa preencher um formulário com seus dados de endereço e ao lado direito é possível visualizar os itens do carrinho, podendo alterar a quantidade ou remover o mesmo. Na terceira e última tela, é exibido uma confirmação do pedido e também os detalhes de entrega da compra.
