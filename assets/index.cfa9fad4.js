@@ -521,7 +521,7 @@ Error generating stack: `+o.message+`
   display: flex;
   align-items: center;
   justify-content: center;
-`;function Gn({icon:e,text:t,iconBg:n}){return E(zk,{children:[u(Dk,{iconBg:n,children:e}),typeof t=="string"?u("p",{children:t}):t]})}function Fk(){const{colors:e}=bc();return u(Mk,{children:E(Rk,{className:"container",children:[E("div",{children:[E("section",{children:[u(Ik,{size:"xl",children:"Encontre o caf\xE9 perfeito para qualquer hora do dia"}),u(De,{as:"h3",size:"l",color:"subtitle",children:"Com o Coffee Delivery voc\xEA recebe seu caf\xE9 onde estiver, a qualquer hora"})]}),E(bk,{children:[u(Gn,{iconBg:e["brand-yellow-dark"],icon:u(Vc,{weight:"fill"}),text:"Compra simples e segura"}),u(Gn,{iconBg:e["base-text"],icon:u(Zv,{weight:"fill"}),text:"Embalagem mant\xE9m o caf\xE9 intacto"}),u(Gn,{iconBg:e["brand-yellow"],icon:u(Xv,{weight:"fill"}),text:"Entrega r\xE1pida e rastreada"}),u(Gn,{iconBg:e["brand-purple"],icon:u(Mv,{weight:"fill"}),text:"O caf\xE9 chega fresquinho at\xE9 voc\xEA"})]})]}),u("img",{src:Wk})]})})}const Vk=[{id:1,tags:["tradicional"],name:"Expresso Tradicional",description:"O tradicional caf\xE9 feito com \xE1gua quente e gr\xE3os mo\xEDdos",photo:"tradicional.png",price:9.9},{id:2,tags:["tradicional"],name:"Expresso Americano",description:"Expresso dilu\xEDdo, menos intenso que o tradicional",photo:"americano.png",price:9.9},{id:3,tags:["tradicional"],name:"Expresso Cremoso",description:"Caf\xE9 expresso tradicional com espuma cremosa",photo:"cremoso.png",price:9.9},{id:4,tags:["tradicional","gelado"],name:"Expresso Gelado",description:"Bebida preparada com caf\xE9 expresso e cubos de gelo",photo:"gelado.png",price:9.9},{id:5,tags:["tradicional","com leite"],name:"Caf\xE9 com Leite",description:"Meio a meio de expresso tradicional com leite vaporizado",photo:"leite.png",price:9.9},{id:6,tags:["tradicional","com leite"],name:"Latte",description:"Uma dose de caf\xE9 expresso com o dobro de leite e espuma cremosa",photo:"latte.png",price:9.9},{id:7,tags:["tradicional","com leite"],name:"Capuccino",description:"Bebida com canela feita de doses iguais de caf\xE9, leite e espuma",photo:"capuccino.png",price:9.9},{id:8,tags:["tradicional","com leite"],name:"Macchiato",description:"Caf\xE9 expresso misturado com um pouco de leite quente e espuma",photo:"macchiato.png",price:9.9},{id:9,tags:["tradicional","com leite"],name:"Mocaccino",description:"Caf\xE9 expresso com calda de chocolate, pouco leite e espuma",photo:"mocaccino.png",price:9.9},{id:10,tags:["especial","com leite"],name:"Chocolate Quente",description:"Bebida feita com chocolate dissolvido no leite quente e caf\xE9",photo:"chocolate.png",price:9.9},{id:11,tags:["especial","alco\xF3lico","gelado"],name:"Cubano",description:"Drink gelado de caf\xE9 expresso com rum, creme de leite e hortel\xE3",photo:"cubano.png",price:9.9},{id:12,tags:["especial"],name:"Havaiano",description:"Bebida adocicada preparada com caf\xE9 e leite de coco",photo:"havaiano.png",price:9.9},{id:13,tags:["especial"],name:"\xC1rabe",description:"Bebida preparada com gr\xE3os de caf\xE9 \xE1rabe e especiarias",photo:"arabe.png",price:9.9},{id:14,tags:["especial","alco\xF3lico"],name:"Irland\xEAs",description:"Bebida a base de caf\xE9, u\xEDsque irland\xEAs, a\xE7\xFAcar e chantilly",photo:"irlandes.png",price:9.9}],Hk=re.div`
+`;function Gn({icon:e,text:t,iconBg:n}){return E(zk,{children:[u(Dk,{iconBg:n,children:e}),typeof t=="string"?u("p",{children:t}):t]})}function Fk(){const{colors:e}=bc();return u(Mk,{children:E(Rk,{className:"container",children:[E("div",{children:[E("section",{children:[u(Ik,{size:"xl",children:"Encontre o caf\xE9 perfeito para qualquer hora do dia"}),u(De,{as:"h3",size:"l",color:"subtitle",children:"Com o Coffee Delivery voc\xEA recebe seu caf\xE9 onde estiver, a qualquer hora"})]}),E(bk,{children:[u(Gn,{iconBg:e["brand-yellow-dark"],icon:u(Vc,{weight:"fill"}),text:"Compra simples e segura"}),u(Gn,{iconBg:e["base-text"],icon:u(Zv,{weight:"fill"}),text:"Embalagem mant\xE9m o caf\xE9 intacto"}),u(Gn,{iconBg:e["brand-yellow"],icon:u(Xv,{weight:"fill"}),text:"Entrega r\xE1pida e rastreada"}),u(Gn,{iconBg:e["brand-purple"],icon:u(Mv,{weight:"fill"}),text:"O caf\xE9 chega fresquinho at\xE9 voc\xEA"})]})]}),u("img",{src:Wk})]})})}var Vk="/ignite-2022-reactjs-coffee-challenge-02-delivery/assets/tradicional.b93d5915.png";const Hk=[{id:1,tags:["tradicional"],name:"Expresso Tradicional",description:"O tradicional caf\xE9 feito com \xE1gua quente e gr\xE3os mo\xEDdos",photo:Vk,price:9.9},{id:2,tags:["tradicional"],name:"Expresso Americano",description:"Expresso dilu\xEDdo, menos intenso que o tradicional",photo:"americano.png",price:9.9},{id:3,tags:["tradicional"],name:"Expresso Cremoso",description:"Caf\xE9 expresso tradicional com espuma cremosa",photo:"cremoso.png",price:9.9},{id:4,tags:["tradicional","gelado"],name:"Expresso Gelado",description:"Bebida preparada com caf\xE9 expresso e cubos de gelo",photo:"gelado.png",price:9.9},{id:5,tags:["tradicional","com leite"],name:"Caf\xE9 com Leite",description:"Meio a meio de expresso tradicional com leite vaporizado",photo:"leite.png",price:9.9},{id:6,tags:["tradicional","com leite"],name:"Latte",description:"Uma dose de caf\xE9 expresso com o dobro de leite e espuma cremosa",photo:"latte.png",price:9.9},{id:7,tags:["tradicional","com leite"],name:"Capuccino",description:"Bebida com canela feita de doses iguais de caf\xE9, leite e espuma",photo:"capuccino.png",price:9.9},{id:8,tags:["tradicional","com leite"],name:"Macchiato",description:"Caf\xE9 expresso misturado com um pouco de leite quente e espuma",photo:"macchiato.png",price:9.9},{id:9,tags:["tradicional","com leite"],name:"Mocaccino",description:"Caf\xE9 expresso com calda de chocolate, pouco leite e espuma",photo:"mocaccino.png",price:9.9},{id:10,tags:["especial","com leite"],name:"Chocolate Quente",description:"Bebida feita com chocolate dissolvido no leite quente e caf\xE9",photo:"chocolate.png",price:9.9},{id:11,tags:["especial","alco\xF3lico","gelado"],name:"Cubano",description:"Drink gelado de caf\xE9 expresso com rum, creme de leite e hortel\xE3",photo:"cubano.png",price:9.9},{id:12,tags:["especial"],name:"Havaiano",description:"Bebida adocicada preparada com caf\xE9 e leite de coco",photo:"havaiano.png",price:9.9},{id:13,tags:["especial"],name:"\xC1rabe",description:"Bebida preparada com gr\xE3os de caf\xE9 \xE1rabe e especiarias",photo:"arabe.png",price:9.9},{id:14,tags:["especial","alco\xF3lico"],name:"Irland\xEAs",description:"Bebida a base de caf\xE9, u\xEDsque irland\xEAs, a\xE7\xFAcar e chantilly",photo:"irlandes.png",price:9.9}],Bk=re.div`
   width: 100%;
   background: ${({theme:e})=>e.colors["base-card"]};
   border-radius: 6px 36px 6px 36px;
@@ -537,7 +537,7 @@ Error generating stack: `+o.message+`
     height: 7.5rem;
     margin-top: -1.25rem;
   }
-`,Bk=re.div`
+`,Uk=re.div`
   width: 100%;
   display: flex;
   align-items: center;
@@ -556,12 +556,12 @@ Error generating stack: `+o.message+`
     border-radius: 999px;
     font-weight: 700;
   }
-`,Uk=re(Pr).attrs({size:"s",color:"subtitle"})`
+`,Zk=re(Pr).attrs({size:"s",color:"subtitle"})`
   font-weight: 700;
   margin-bottom: 0.5rem;
-`,Zk=re(De).attrs({size:"s",color:"label"})`
+`,Qk=re(De).attrs({size:"s",color:"label"})`
   margin-bottom: 2rem;
-`,Qk=re.div`
+`,Kk=re.div`
   width: 100%;
   display: flex;
   align-items: center;
@@ -576,7 +576,7 @@ Error generating stack: `+o.message+`
       line-height: 0.75rem;
     }
   }
-`,Kk=re.div`
+`,Yk=re.div`
   width: 7.5rem;
 
   > button {
@@ -596,19 +596,19 @@ Error generating stack: `+o.message+`
       background: ${({theme:e})=>e.colors["brand-purple"]};
     }
   }
-`;function Yk({coffee:e}){const[t,n]=W.exports.useState(1);function r(){n(a=>a+1)}function i(){n(a=>a-1)}const{addCoffeeToCart:o}=wi();function s(){const a={...e,quantity:t};o(a)}const l=Qi(e.price);return E(Hk,{children:[u("img",{src:`/coffees/${e.photo}`}),u(Bk,{children:e.tags.map(a=>u("span",{children:a},`${e.id}${a}`))}),u(Uk,{children:e.name}),u(Zk,{children:e.description}),E(Qk,{children:[E("div",{children:[u(De,{size:"s",children:"R$"}),u(Pr,{size:"m",color:"text",as:"strong",children:l})]}),E(Kk,{children:[u(g1,{onIncrease:r,onDecrease:i,quantity:t}),u("button",{onClick:s,children:u(Vc,{weight:"fill",size:22})})]})]})]})}const Gk=re.section`
+`;function Gk({coffee:e}){const[t,n]=W.exports.useState(1);function r(){n(a=>a+1)}function i(){n(a=>a-1)}const{addCoffeeToCart:o}=wi();function s(){const a={...e,quantity:t};o(a)}const l=Qi(e.price);return E(Bk,{children:[u("img",{src:`/coffees/${e.photo}`}),u(Uk,{children:e.tags.map(a=>u("span",{children:a},`${e.id}${a}`))}),u(Zk,{children:e.name}),u(Qk,{children:e.description}),E(Kk,{children:[E("div",{children:[u(De,{size:"s",children:"R$"}),u(Pr,{size:"m",color:"text",as:"strong",children:l})]}),E(Yk,{children:[u(g1,{onIncrease:r,onDecrease:i,quantity:t}),u("button",{onClick:s,children:u(Vc,{weight:"fill",size:22})})]})]})]})}const Xk=re.section`
   width: 100%;
   margin-top: 2rem;
-`,Xk=re.div`
+`,qk=re.div`
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 2rem;
   row-gap: 2.5rem;
   margin-top: 3.5rem;
-`;function qk(){return E(Gk,{className:"container",children:[u(Pr,{size:"l",color:"subtitle",children:"Nossos caf\xE9s"}),u(Xk,{children:Vk.map(e=>u(Yk,{coffee:e},e.id))})]})}const Jk=re.div`
+`;function Jk(){return E(Xk,{className:"container",children:[u(Pr,{size:"l",color:"subtitle",children:"Nossos caf\xE9s"}),u(qk,{children:Hk.map(e=>u(Gk,{coffee:e},e.id))})]})}const e8=re.div`
   margin-bottom: 9.8rem;
-`;function e8(){return E(Jk,{children:[u(Fk,{}),u(qk,{})]})}const t8=re.div`
+`;function t8(){return E(e8,{children:[u(Fk,{}),u(Jk,{})]})}const n8=re.div`
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
@@ -623,7 +623,7 @@ Error generating stack: `+o.message+`
     align-items: center;
     justify-content: space-between;
   }
-`,n8=re.div`
+`,r8=re.div`
   padding: 2.5rem;
   border-radius: 6px 36px 6px 36px;
   position: relative;
@@ -641,4 +641,4 @@ Error generating stack: `+o.message+`
     border-radius: 7px 37px 7px 37px;
     background: linear-gradient(102.89deg, #dbac2c 2.61%, #8047f8 98.76%);
   }
-`;var r8="/ignite-2022-reactjs-coffee-challenge-02-delivery/assets/confirmed-order.64b9984a.svg";function i8(){const{colors:e}=bc(),{state:t}=ki(),n=Dc();return W.exports.useEffect(()=>{t||n("/")},[]),t?E(t8,{className:"container",children:[E("div",{children:[u(Pr,{size:"l",children:"Uhu! Pedido confirmado"}),u(De,{size:"l",color:"subtitle",children:"Agora \xE9 s\xF3 aguardar que logo o caf\xE9 chegar\xE1 at\xE9 voc\xEA"})]}),E("section",{children:[E(n8,{children:[u(Gn,{icon:u(Z0,{weight:"fill"}),iconBg:e["brand-purple"],text:E(De,{children:["Entrega em ",u("strong",{children:t.street}),", ",t.number,u("br",{}),t.district," - ",t.city,", ",t.uf]})}),u(Gn,{icon:u(Nv,{weight:"fill"}),iconBg:e["brand-yellow"],text:E(De,{children:["Previs\xE3o de entrega",u("br",{}),u("strong",{children:"20 min - 30 min"})]})}),u(Gn,{icon:u(B0,{weight:"fill"}),iconBg:e["brand-yellow-dark"],text:E(De,{children:["Pagamento na entrega",u("br",{}),u("strong",{children:y1[t.paymentMethod].label})]})})]}),u("img",{src:r8})]})]}):u(T,{})}const Ki="/ignite-2022-reactjs-coffee-challenge-02-delivery";function o8(){return u(fv,{children:E(Ri,{path:"/",element:u(h2,{}),children:[u(Ri,{path:Ki,element:u(e8,{})}),u(Ri,{path:`${Ki}/completeOrder`,element:u(yk,{})}),u(Ri,{path:`${Ki}/orderConfirmed`,element:u(i8,{})})]})})}function s8(){return E(Ng,{theme:Rg,children:[u(Ig,{}),u(mv,{children:u(d2,{children:u(o8,{})})})]})}ua.createRoot(document.getElementById("root")).render(u(Be.StrictMode,{children:u(s8,{})}));
+`;var i8="/ignite-2022-reactjs-coffee-challenge-02-delivery/assets/confirmed-order.64b9984a.svg";function o8(){const{colors:e}=bc(),{state:t}=ki(),n=Dc();return W.exports.useEffect(()=>{t||n("/")},[]),t?E(n8,{className:"container",children:[E("div",{children:[u(Pr,{size:"l",children:"Uhu! Pedido confirmado"}),u(De,{size:"l",color:"subtitle",children:"Agora \xE9 s\xF3 aguardar que logo o caf\xE9 chegar\xE1 at\xE9 voc\xEA"})]}),E("section",{children:[E(r8,{children:[u(Gn,{icon:u(Z0,{weight:"fill"}),iconBg:e["brand-purple"],text:E(De,{children:["Entrega em ",u("strong",{children:t.street}),", ",t.number,u("br",{}),t.district," - ",t.city,", ",t.uf]})}),u(Gn,{icon:u(Nv,{weight:"fill"}),iconBg:e["brand-yellow"],text:E(De,{children:["Previs\xE3o de entrega",u("br",{}),u("strong",{children:"20 min - 30 min"})]})}),u(Gn,{icon:u(B0,{weight:"fill"}),iconBg:e["brand-yellow-dark"],text:E(De,{children:["Pagamento na entrega",u("br",{}),u("strong",{children:y1[t.paymentMethod].label})]})})]}),u("img",{src:i8})]})]}):u(T,{})}const Ki="/ignite-2022-reactjs-coffee-challenge-02-delivery";function s8(){return u(fv,{children:E(Ri,{path:"/",element:u(h2,{}),children:[u(Ri,{path:Ki,element:u(t8,{})}),u(Ri,{path:`${Ki}/completeOrder`,element:u(yk,{})}),u(Ri,{path:`${Ki}/orderConfirmed`,element:u(o8,{})})]})})}function l8(){return E(Ng,{theme:Rg,children:[u(Ig,{}),u(mv,{children:u(d2,{children:u(s8,{})})})]})}ua.createRoot(document.getElementById("root")).render(u(Be.StrictMode,{children:u(l8,{})}));
