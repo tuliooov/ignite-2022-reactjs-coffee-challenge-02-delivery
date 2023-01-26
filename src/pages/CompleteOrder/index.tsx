@@ -6,6 +6,7 @@ import * as zod from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useNavigate } from "react-router-dom";
 import { useCart } from "../../hooks/useCart";
+import { BASE_PATH } from "../../Routes";
 
 enum PaymentMethods {
   credit = "credit",
@@ -46,7 +47,7 @@ export function CompleteOrderPage() {
   const { cleanCart } = useCart();
 
   function handleConfirmOrder(data: ConfirmOrderFormData) {
-    navigate("/orderConfirmed", {
+    navigate(`${BASE_PATH}/orderConfirmed`, {
       state: data,
     });
     cleanCart();
